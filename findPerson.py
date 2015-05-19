@@ -10,7 +10,6 @@ class FindProjTests(unittest.TestCase):
 		self.assertEquals([],posts)
 	
 	def test_get_all_posts_for_name(self):
-		posts = self.crowdmap.get_all_posts_for("Or A.")
 		self.assertEquals(["I met Or A. at Chabad house Bangkok","We found Or A. R.I.P at Langtang valley"],posts)
 		
 		
